@@ -1,0 +1,4 @@
+/.env.local
+/.env.override
+/data
+/node_modules

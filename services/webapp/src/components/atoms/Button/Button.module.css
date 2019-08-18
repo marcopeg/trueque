@@ -1,0 +1,30 @@
+
+.btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 2px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+
+    padding-top: calc(var(--treque-space-primary) * 4);
+    padding-bottom: calc(var(--treque-space-primary) * 4);
+}
+
+.btn--primary {
+    background-color: var(--treque-color-primary);
+}
+
+.btn--secondary {
+    background-color: var(--treque-color-secondary);
+}
+
+.btn--disabled {
+    background-color: var(--treque-color-disabled);
+}
