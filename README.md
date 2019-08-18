@@ -1,2 +1,2 @@
-# trueque
-Service exchange platform
+# Treque
+Service Exchange Platform
