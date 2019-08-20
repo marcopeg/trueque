@@ -1,10 +1,21 @@
 
 ###
+### DOCKER
+###
+
+docker-up:
+	docker-compose -f docker-compose.dev.yml up -d
+	docker-compose -f docker-compose.dev.yml logs -f
+
+docker-down:
+	docker-compose -f docker-compose.dev.yml down
+
+###
 ### DEVELOPMENT
 ###
 
 dev:
-	HUMBLE_ENV=dev humble up -d
+	HUMBLE_ENV=dev humble up -d postgres webapp
 	HUMBLE_ENV=dev humble logs -f
 
 undev:
@@ -21,6 +32,10 @@ dev-locale:
 
 dev-pg:
 	HUMBLE_ENV=dev humble up -d postgres
+	HUMBLE_ENV=dev humble logs -f
+
+dev-styleguide:
+	HUMBLE_ENV=dev humble up -d styleguide
 	HUMBLE_ENV=dev humble logs -f
 
 ###
