@@ -1,4 +1,7 @@
-# Treque<br><small>Service Exchange Platform</small>
+# Treque
+Service Exchange Platform
+
+---
 
 ## Prerequisites & Software
 
