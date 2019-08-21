@@ -1,0 +1,48 @@
+{
+    "basic": {
+        "font": {
+            "size": {
+                "-": { "value": "16px", "comment": "basic stuff" }
+            },
+            "family": {
+                "-": { "value": "OpenSans" }
+            }
+        },
+        "border": {
+            "size": {
+                "-": { "value": "1px" }
+            },
+            "style": {
+                "-": { "value": "solid" }
+            },
+            "radius": {
+                "-": { "value": "4px" }
+            }
+        },
+        "color": {
+            "primary": {
+                "-": { "value": "#1dadb5" }
+            },
+            "dark": {
+                "-": { "value": "#232831" },
+                "light": { "value": "#393e46" }
+            },
+            "light": {
+                "-": { "value": "#fff" },
+                "dark": { "value": "#ddd" }
+            },
+            "disabled": {
+                "-": { "value": "#eee" }
+            },
+            "facebook": {
+                "-": { "value": "#4267b2" }
+            }
+        },
+        "margin": {
+            "medium": { "value": "10px" }
+        },
+        "padding": {
+            "medium": { "value": "10px" }
+        }
+    }
+}

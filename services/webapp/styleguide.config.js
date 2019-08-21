@@ -9,6 +9,7 @@ module.exports = {
             name: 'Atoms',
             description: 'Basic UI components',
             components: [
+                'src/components/atoms/Text/Text.jsx',
                 'src/components/atoms/Button/Button.jsx',
             ],
         },
@@ -16,6 +17,7 @@ module.exports = {
             name: 'Molecules',
             description: 'Composition of components',
             components: [
+                'src/components/molecules/Card/Card.jsx',
                 'src/components/molecules/Header/Header.jsx',
             ],
             // sections: [
@@ -55,7 +57,7 @@ module.exports = {
      * prefer to go the `styled-components` way.
      */
     require: [
-        path.join(__dirname, 'src/index.css'),
+        path.join(__dirname, 'src/index.scss'),
     ],
 
     /**

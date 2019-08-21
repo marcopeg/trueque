@@ -7,17 +7,14 @@ Default
 Primary:
 
 ```js
-<Button tqRole="primary">bt1</Button>
+<Button tqRole="primary">primary</Button>
+<Button tqRole="primary" tqDisabled>primary disabled</Button>
 ```
 
 Secondary:
 
 ```js
-<Button tqRole="secondary">bt1</Button>
+<Button tqRole="secondary">secondary</Button>
+<Button tqRole="secondary" tqDisabled>secondary disabled</Button>
 ```
 
-Disabled:
-
-```js
-<Button tqRole="disabled">bt1</Button>
-```

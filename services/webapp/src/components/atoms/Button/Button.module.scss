@@ -1,0 +1,24 @@
+@import 'variables.scss';
+
+.btn {
+    padding: $basic-padding-medium $basic-padding-medium * 3;
+    color: $basic-color-light;
+    border-radius: $basic-border-radius;
+}
+
+.primary {
+    background-color: $basic-color-primary;
+    border-color: $basic-color-primary;
+}
+
+.secondary {
+    color: $basic-color-light;
+    background-color: $basic-color-dark;
+    border-color: $basic-color-dark;
+}
+
+.disabled {
+    color: $basic-color-dark;
+    background-color: $basic-color-disabled;
+    border-color: $basic-color-disabled;
+}

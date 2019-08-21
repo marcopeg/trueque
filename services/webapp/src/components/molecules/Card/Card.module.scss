@@ -1,0 +1,13 @@
+@import 'variables.scss';
+
+.card {
+    margin: 0 0 $basic-margin-medium 0;
+    padding: $basic-padding-medium $basic-padding-medium $basic-padding-medium / 2 $basic-padding-medium;
+    border: $basic-border-size $basic-border-style $basic-color-light-dark;
+    border-radius: $basic-border-radius;
+}
+
+.primary {
+    background-color: $basic-color-primary;
+    border-color: $basic-color-primary;
+}

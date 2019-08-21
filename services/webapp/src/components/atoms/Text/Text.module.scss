@@ -1,0 +1,17 @@
+@import 'variables.scss';
+
+.text {
+    font-size: $basic-font-size;
+}
+
+.role-title1 {
+    font-size: $basic-font-size * 3;
+}
+
+.role-title2 {
+    font-size: $basic-font-size * 2;
+}
+
+.color-contrast {
+    color: $basic-color-light;
+}
