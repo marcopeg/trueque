@@ -1,8 +1,6 @@
-/* eslint-disable */
-
 /**
  * Do not edit directly
- * Generated on Wed, 21 Aug 2019 14:52:22 GMT
+ * Generated on Thu, 22 Aug 2019 07:27:39 GMT
  */
 
 export const BasicFontSize = "16px"; // basic stuff

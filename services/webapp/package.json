@@ -45,6 +45,12 @@
   "eslintConfig": {
     "extends": [
       "@forrestjs/eslint-config-universal"
+    ],
+    "overrides": [
+      {
+        "files": ["src/_variables.js"],
+        "rules": { "semi": "off", "eol-last": "off" }
+      }
     ]
   },
   "eslintIgnore": [
